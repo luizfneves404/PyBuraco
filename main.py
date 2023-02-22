@@ -1,18 +1,5 @@
-"""PyBuraco is a text-based implementation of the famous brazillian card game "Buraco",
+"""PyBuraco is a text-based implementation of the famous card game "Buraco",
 also known as Canastra.
-
-Two decks of cards are used. There are two ways to play the game:
-with two players or with two pairs of players. Each player has a hand of eleven (11)
-cards dealt to them at the beginning of the game. There are two piles of cards on the table:
-a face-down stack for buying cards (named BuyingStack) and a face-up group of cards (named Trash),
-which can be seen at the same time Each player will try to create sequences of cards on their side
-of the table.
-
-A sequence of cards consists of a set of cards in ascending order. It must contain at
-least three (3) cards to be dealt onto the table. After one of the players runs out of cards, both
-players count their points and the game ends. The player with the most points wins. All Stacks of
-cards, including those of the players, are indexed from bottom to top, so that the first card is on
-the bottom, and the last card is on top
 """
 
 import random

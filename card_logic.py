@@ -43,6 +43,10 @@ class Card:
 
 
 class Stack:
+    """This is the main Stack class, from which the other classes inherit. Stack.cards is indexed
+    from bottom to top, so, for example, the top card has index -1.
+    """
+
     def __init__(
         self, cards_list: list[Card], is_face_up: bool, is_spread_out: bool
     ) -> None:
